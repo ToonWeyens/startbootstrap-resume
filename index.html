@@ -8,7 +8,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Resume - Start Bootstrap Theme</title>
+    <title>Toon Weyens · Resume</title>
 
     <!-- Bootstrap core CSS -->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -21,7 +21,15 @@
     <link href="vendor/simple-line-icons/css/simple-line-icons.css" rel="stylesheet">
 
     <!-- Custom styles for this template -->
-    <link href="css/resume.min.css" rel="stylesheet">
+    <link href="css/resume.css" rel="stylesheet">
+    
+    <!-- Font Awesome Icon Library -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        .checked {
+            color: #BD5D38;
+        }
+    </style>
 
   </head>
 
@@ -52,10 +60,13 @@
             <a class="nav-link js-scroll-trigger" href="#skills">Skills</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#interests">Interests</a>
+            <a class="nav-link js-scroll-trigger" href="#research">Research</a>
           </li>
           <li class="nav-item">
             <a class="nav-link js-scroll-trigger" href="#awards">Awards</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#references">References</a>
           </li>
         </ul>
       </div>
@@ -65,32 +76,51 @@
 
       <section class="resume-section p-3 p-lg-5 d-flex d-column" id="about">
         <div class="my-auto">
-          <h1 class="mb-0">Clarence
-            <span class="text-primary">Taylor</span>
+          <h1 class="mb-0">Toon
+            <span class="text-primary">Weyens</span>
           </h1>
-          <div class="subheading mb-5">3542 Berry Street · Cheyenne Wells, CO 80810 · (317) 585-8468 ·
-            <a href="mailto:name@email.com">name@email.com</a>
+          <div class="subheading mb-5">Aix-en-Provence · France · +32 494 39 92 19 ·
+            <a href="mailto:weyenst@gmail.com">weyenst@gmail.com</a>
           </div>
-          <p class="mb-5">I am experienced in leveraging agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition.</p>
+          <p class="mb-5" align="justify">Through my background in general energy engineering, as well as my Ph.D. specialized in nuclear fusion science, I am well suited to tackle any problem where anlytical insight and higher mathematics is necessary, without losing sight of the big picture. This is backed up by extensive computational physics knowledge. As working in a dynamic multicultural and multilingual environment challenges and motivates me, I am always looking for new opportunities to learn. Furthermore, I enjoy sports, music, traveling, mathematics and reading.</p>
+          <p>
+            <table>
+                <tbody>
+                    <tr>
+                        <td style="padding-right: 50px;" align="left">postal address</td>
+                        <td align="left">43 Koerselsebaan · 3550 Heusden-Zolder · Belgium</td>
+                    </tr>
+                    <tr>
+                        <td style="padding-right: 50px;" align="left">nationality</td>
+                        <td align="left">Belgian</td>
+                    </tr>
+                    <tr>
+                        <td style="padding-right: 50px;" align="left">date of birth</td>
+                        <td align="left">30/12/1987</td>
+                    </tr>
+                </tbody>
+            </table>
+          </p>
+          <br>
           <ul class="list-inline list-social-icons mb-0">
+          <!--<li class="list-inline-item">-->
+          <!--<a href="#">-->
+          <!--<span class="fa-stack fa-lg">-->
+          <!--<i class="fa fa-circle fa-stack-2x"></i>-->
+          <!--<i class="fa fa-facebook fa-stack-1x fa-inverse"></i>-->
+          <!--</span>-->
+          <!--</a>-->
+          <!--</li>-->
+          <!--<li class="list-inline-item">-->
+          <!--<a href="#">-->
+          <!--<span class="fa-stack fa-lg">-->
+          <!--<i class="fa fa-circle fa-stack-2x"></i>-->
+          <!--<i class="fa fa-twitter fa-stack-1x fa-inverse"></i>-->
+          <!--</span>-->
+          <!--</a>-->
+          <!--</li>-->
             <li class="list-inline-item">
-              <a href="#">
-                <span class="fa-stack fa-lg">
-                  <i class="fa fa-circle fa-stack-2x"></i>
-                  <i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
-                </span>
-              </a>
-            </li>
-            <li class="list-inline-item">
-              <a href="#">
-                <span class="fa-stack fa-lg">
-                  <i class="fa fa-circle fa-stack-2x"></i>
-                  <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
-                </span>
-              </a>
-            </li>
-            <li class="list-inline-item">
-              <a href="#">
+              <a href="https://www.linkedin.com/in/toonweyens/" target="_blank">
                 <span class="fa-stack fa-lg">
                   <i class="fa fa-circle fa-stack-2x"></i>
                   <i class="fa fa-linkedin fa-stack-1x fa-inverse"></i>
@@ -98,10 +128,18 @@
               </a>
             </li>
             <li class="list-inline-item">
-              <a href="#">
+              <a href="http://github.com/toonweyens" target="_blank">
                 <span class="fa-stack fa-lg">
                   <i class="fa fa-circle fa-stack-2x"></i>
                   <i class="fa fa-github fa-stack-1x fa-inverse"></i>
+                </span>
+              </a>
+            </li>
+            <li class="list-inline-item">
+              <a href="https://scholar.google.com/citations?user=pn68uq0AAAAJ&hl=en&oi=sra" target="_blank">
+                <span class="fa-stack fa-lg">
+                  <i class="fa fa-circle fa-stack-2x"></i>
+                  <i class="fa fa-google fa-stack-1x fa-inverse"></i>
                 </span>
               </a>
             </li>
@@ -115,45 +153,25 @@
 
           <div class="resume-item d-flex flex-column flex-md-row mb-5">
             <div class="resume-content mr-auto">
-              <h3 class="mb-0">Senior Web Developer</h3>
-              <div class="subheading mb-3">Intelitec Solutions</div>
-              <p>Bring to the table win-win survival strategies to ensure proactive domination. At the end of the day, going forward, a new normal that has evolved from generation X is on the runway heading towards a streamlined cloud solution. User generated content in real-time will have multiple touchpoints for offshoring.</p>
+              <h3 class="mb-0">Postdoctoral Monaco Fellow</h3>
+              <div class="subheading mb-3">ITER Organization</div>
+              <p align="justify">The numerical code PB3D, developed as part of my Ph.D. project is put to use at the <a href="http://iter.org/" target="_blank">ITER</a> project to support the development of next-generation toroidal magnetic fusion devices. Have a look at the project <a href="https://toonweyens.github.io/PB3D/" target="_blank">webpage</a>.</p>
             </div>
             <div class="resume-date text-md-right">
-              <span class="text-primary">March 2013 - Present</span>
+              <span class="text-primary">January 2017 - Present</span>
             </div>
           </div>
 
           <div class="resume-item d-flex flex-column flex-md-row mb-5">
             <div class="resume-content mr-auto">
-              <h3 class="mb-0">Web Developer</h3>
-              <div class="subheading mb-3">Intelitec Solutions</div>
-              <p>Capitalize on low hanging fruit to identify a ballpark value added activity to beta test. Override the digital divide with additional clickthroughs from DevOps. Nanotechnology immersion along the information highway will close the loop on focusing solely on the bottom line.</p>
+              <h3 class="mb-0">Doctoral Researcher</h3>
+              <div class="subheading mb-3">Universidad Carlos III de Madrid · Eindhoven University of Technology · ITER Organization</div>
+              <p align="justify">My Ph.D. research project involved furthering the understanding of an important class of instabilities that occur in toroidal magnetic confinement devices for nuclear fusion, called <i>high-n</i> instabilities.
+        A dedicated mathematical theory was developed <a href="https://www.researchgate.net/publication/263054885_Three-dimensional_linear_peeling-ballooning_theory_in_magnetic_fusion_devices" target="_blank">[Weyens et al, 2014, P.o.P, 21, 4]</a> and a high-performance numerical code designed, PB3D <a href="https://www.researchgate.net/publication/309620864_PB3D_A_new_code_for_edge_3-D_ideal_linear_peeling-ballooning_stability" target="_blank">[Weyens et al, 2017, J.c.P, 330]</a>, in modern Fortran, making use of the MPI protocol for parallelization.
+        Part of the work was done at the <a href="http://iter.org/" target="_blank">ITER</a> Organization, a multi-billion dolar project where world's most advanced nuclear fusion research reactor is being built.</p>
             </div>
             <div class="resume-date text-md-right">
-              <span class="text-primary">December 2011 - March 2013</span>
-            </div>
-          </div>
-
-          <div class="resume-item d-flex flex-column flex-md-row mb-5">
-            <div class="resume-content mr-auto">
-              <h3 class="mb-0">Junior Web Designer</h3>
-              <div class="subheading mb-3">Shout! Media Productions</div>
-              <p>Podcasting operational change management inside of workflows to establish a framework. Taking seamless key performance indicators offline to maximise the long tail. Keeping your eye on the ball while performing a deep dive on the start-up mentality to derive convergence on cross-platform integration.</p>
-            </div>
-            <div class="resume-date text-md-right">
-              <span class="text-primary">July 2010 - December 2011</span>
-            </div>
-          </div>
-
-          <div class="resume-item d-flex flex-column flex-md-row">
-            <div class="resume-content mr-auto">
-              <h3 class="mb-0">Web Design Intern</h3>
-              <div class="subheading mb-3">Shout! Media Productions</div>
-              <p>Collaboratively administrate empowered markets via plug-and-play networks. Dynamically procrastinate B2C users after installed base benefits. Dramatically visualize customer directed convergence without revolutionary ROI.</p>
-            </div>
-            <div class="resume-date text-md-right">
-              <span class="text-primary">September 2008 - June 2010</span>
+              <span class="text-primary">January 2017 - Present</span>
             </div>
           </div>
 
@@ -167,24 +185,68 @@
 
           <div class="resume-item d-flex flex-column flex-md-row mb-5">
             <div class="resume-content mr-auto">
-              <h3 class="mb-0">University of Colorado Boulder</h3>
-              <div class="subheading mb-3">Bachelor of Science</div>
-              <div>Computer Science - Web Development Track</div>
-              <p>GPA: 3.23</p>
+              <h3 class="mb-0">Nuclear Fusion Science & Technology</h3>
+              <div class="subheading mb-3">Master of Science</div>
+              <div align="justify">
+                <b>Ghent University · Universidad Carlos III de Madrid · Université de Lorraine</b><br>
+                European program in <a href="http://www.em-master-fusion.org/" target="_blank">Erasmus Mundus</a> framework.<br>
+                Graduated top 5%.
+              </div>
             </div>
             <div class="resume-date text-md-right">
-              <span class="text-primary">August 2006 - May 2010</span>
+              <span class="text-primary">2010 - 2012</span>
             </div>
           </div>
 
-          <div class="resume-item d-flex flex-column flex-md-row">
+          <div class="resume-item d-flex flex-column flex-md-row mb-5">
             <div class="resume-content mr-auto">
-              <h3 class="mb-0">James Buchanan High School</h3>
-              <div class="subheading mb-3">Technology Magnet Program</div>
-              <p>GPA: 3.56</p>
+              <h3 class="mb-0">Energy Engineering</h3>
+              <div class="subheading mb-3">Master of Science</div>
+              <div align="justify">
+                <b>University of Leuven · Technische Universität Berlin (exchange)</b><br>
+                Curriculum included mostly cientific but also economic and managerial aspects of energy.<br>
+                Graduated top 15%.
+              </div>
             </div>
             <div class="resume-date text-md-right">
-              <span class="text-primary">August 2002 - May 2006</span>
+              <span class="text-primary">2008 - 2010</span>
+            </div>
+          </div>
+
+          <div class="resume-item d-flex flex-column flex-md-row mb-5">
+            <div class="resume-content mr-auto">
+              <h3 class="mb-0">Deep Learning</h3>
+              <div class="subheading mb-3">Online Course</div>
+              <div align="justify">
+                <b>Couresera</b><br>
+                5-course specialization by <a href="https://www.deeplearning.ai/" target="_blank">deeplearning.ai</a> on <a href="https://www.coursera.org/specializations/deep-learning" target="_blank">Coursera</a>.
+                The topics include the foundations of Deep Learning, understand how to build neural networks, and learn how to lead successful machine learning projects.
+                Neural network techniques such as convolutional networks, RNNs, LSTM, Adam, Dropout, BatchNorm, Xavier/He initialization, and more are treated.
+                There is a focus on case studies from healthcare, autonomous driving, sign language reading, music generation, and natural language processing.
+                These ideas are practiced in Python, and use is made of software packages <a href="https://www.tensorflow.org" target="_blank">TensorFlow</a> as well as <a href="https://keras.io/" target="_blank">Keras</a>.<br>
+                workload: 60-100 hours<br>
+                certificate: <a href="https://www.coursera.org/account/accomplishments/specialization/LGBBTZSV3E3S" target="_blank">https://www.coursera.org/account/accomplishments/specialization/LGBBTZSV3E3S</a>
+              </div>
+            </div>
+            <div class="resume-date text-md-right">
+              <span class="text-primary">May 2018</span>
+            </div>
+          </div>
+
+          <div class="resume-item d-flex flex-column flex-md-row mb-5">
+            <div class="resume-content mr-auto">
+              <h3 class="mb-0">23rd Summer School on Parallel Computing</h3>
+              <div class="subheading mb-3">Summer School</div>
+              <div align="justify">
+                <b>CINECA, Casalecchio Di Reno</b><br>
+                The Summer School on Parallel Computing is an intense, 10 day, graduate level course in HPC, with the objective of providing the participants with the skills to program and exploit modern parallel computing systems to solve computational problems.
+                The school covers key topics focusing on HPC lexicon, parallel architectures, parallel programming models and methods, software engineering, profilers and debuggers.<br>
+                workload: 100 hours<br>
+                website: <a href="http://www.hpc.cineca.it/content/25th-summer-school-parallel-computing" target="_blank">http://www.hpc.cineca.it/content/25th-summer-school-parallel-computing</a>
+              </div>
+            </div>
+            <div class="resume-date text-md-right">
+              <span class="text-primary">May 2014</span>
             </div>
           </div>
 
@@ -195,101 +257,200 @@
         <div class="my-auto">
           <h2 class="mb-5">Skills</h2>
 
-          <div class="subheading mb-3">Programming Languages &amp; Tools</div>
-          <ul class="list-inline list-icons">
-            <li class="list-inline-item">
-              <i class="devicons devicons-html5"></i>
-            </li>
-            <li class="list-inline-item">
-              <i class="devicons devicons-css3"></i>
-            </li>
-            <li class="list-inline-item">
-              <i class="devicons devicons-javascript"></i>
-            </li>
-            <li class="list-inline-item">
-              <i class="devicons devicons-jquery"></i>
-            </li>
-            <li class="list-inline-item">
-              <i class="devicons devicons-sass"></i>
-            </li>
-            <li class="list-inline-item">
-              <i class="devicons devicons-less"></i>
-            </li>
-            <li class="list-inline-item">
-              <i class="devicons devicons-bootstrap"></i>
-            </li>
-            <li class="list-inline-item">
-              <i class="devicons devicons-wordpress"></i>
-            </li>
-            <li class="list-inline-item">
-              <i class="devicons devicons-grunt"></i>
-            </li>
-            <li class="list-inline-item">
-              <i class="devicons devicons-gulp"></i>
-            </li>
-            <li class="list-inline-item">
-              <i class="devicons devicons-npm"></i>
-            </li>
-          </ul>
+          <div class="subheading mb-3">Languages</div>
+            <table>
+                <tbody>
+                    <tr>
+                        <td style="padding-right: 50px;" align="left">English</td>
+                        <td align="right"><span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span></td>
+                    </tr>
+                    <tr>
+                        <td style="padding-right: 50px;" align="left">Dutch</td>
+                        <td align="right"><span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span></td>
+                    </tr>
+                    <tr>
+                        <td style="padding-right: 50px;" align="left">Spanish</td>
+                        <td align="right"><span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span></td>
+                    </tr>
+                    <tr>
+                        <td style="padding-right: 50px;" align="left">French</td>
+                        <td align="right"><span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star"></span></td>
+                    </tr>
+                    <tr>
+                        <td style="padding-right: 50px;" align="left">German</td>
+                        <td align="right"><span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star"></span></td>
+                    </tr>
+                    <tr>
+                        <td style="padding-right: 50px;" align="left">Portuguese</td>
+                        <td align="right"><span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star"></span>
+                        <span class="fa fa-star"></span></td>
+                    </tr>
+                    <tr>
+                        <td style="padding-right: 50px;" align="left">Italian</td>
+                        <td align="right"><span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star"></span>
+                        <span class="fa fa-star"></span>
+                        <span class="fa fa-star"></span></td>
+                    </tr>
+                </tbody>
+            </table>
+          <br>
 
-          <div class="subheading mb-3">Workflow</div>
-          <ul class="fa-ul mb-0">
-            <li>
-              <i class="fa-li fa fa-check"></i>
-              Mobile-First, Responsive Design</li>
-            <li>
-              <i class="fa-li fa fa-check"></i>
-              Cross Browser Testing &amp; Debugging</li>
-            <li>
-              <i class="fa-li fa fa-check"></i>
-              Cross Functional Teams</li>
-            <li>
-              <i class="fa-li fa fa-check"></i>
-              Agile Development &amp; Scrum</li>
-          </ul>
+          <div class="subheading mb-3">Computer</div>
+          <div>Linux · vim · LaTeX · git · ParaView · VisIt</div>
+          <br>
+          
+          <div class="subheading mb-3">Programming</div>
+          <div>Fortran · Python · MPI · HDF5 · OpenMP · html</div>
+          <br>
+
+          <div class="subheading mb-3">Other</div>
+          <div><a href="http://www.em-fusion-dc.org/" target="_blank">FUSION DC</a> 2016 program representative · <a href="http://tgdsolutions.net/" target="_blank">TGD</a> solutions board member</div>
+          <br>
+
         </div>
       </section>
 
-      <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="interests">
+      <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="research">
         <div class="my-auto">
-          <h2 class="mb-5">Interests</h2>
-          <p>Apart from being a web developer, I enjoy most of my time being outdoors. In the winter, I am an avid skiier and novice ice climber. During the warmer months here in Colorado, I enjoy mountain biking, free climbing, and kayaking.</p>
-          <p class="mb-0">When forced indoors, I follow a number of sci-fi and fantasy genre movies and television shows, I am an aspiring chef, and I spend a large amount of my free time exploring the latest technolgy advancements in the front-end web development world.</p>
+          <h2 class="mb-5">Research</h2>
+
+          <div class="resume-item d-flex flex-column flex-md-row mb-5">
+            <div class="resume-content mr-auto">
+              <h3 class="mb-0">PB3D</h3>
+              <div class="subheading mb-3">Peeling-Ballooning in 3-D</div>
+              <p align="justify">
+                PB3D (<b>P</b>eeling-<b>B</b>allooning in <b>3</b>-<b>D</b>} is a numerical code developed during as part of my doctoral research project.
+                It is capable of analyzing in an efficient manner the peeling-ballooning stability of toroidal magnetic confinement devices for nuclear fusion.
+                These so-called high-n instabilities are of importance in thee next generation of devices as they are easily excited and have the potential to couple plasma from the hot interior to the cold reactor walls.
+                PB3D is unique in that it is geared towards these high-n instabilities, in general 3-D configurations, while allowing for the plasma edge to be perturbed [Weyens et al, 2017, J.c.P, 330].
+    
+                For my postdoctoral research I currently emply PB3D to investigate certain 3-D effects, such as the usage of resonant magnetic perturbations for ELM control--an important class of periodic instabilities that degradate confinement, with applications to ITER.<br>
+              </p>
+              <p>
+                website: <a href="https://toonweyens.github.io/PB3D/">toonweyens.github.io/PB3D</a><br>
+                source: <a href="https://github.com/ToonWeyens/PB3D">github</a><br>
+</p>
+            </div>
+            <div class="resume-date text-md-right">
+              <span class="text-primary">2012 - Present</span>
+            </div>
+          </div>
+
         </div>
       </section>
 
       <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="awards">
         <div class="my-auto">
-          <h2 class="mb-5">Awards &amp; Certifications</h2>
-          <ul class="fa-ul mb-0">
-            <li>
-              <i class="fa-li fa fa-trophy text-warning"></i>
-              Google Analytics Certified Developer</li>
-            <li>
-              <i class="fa-li fa fa-trophy text-warning"></i>
-              Mobile Web Specialist - Google Certification</li>
-            <li>
-              <i class="fa-li fa fa-trophy text-warning"></i>
-              1<sup>st</sup>
-              Place - University of Colorado Boulder - Emerging Tech Competition 2009</li>
-            <li>
-              <i class="fa-li fa fa-trophy text-warning"></i>
-              1<sup>st</sup>
-              Place - University of Colorado Boulder - Adobe Creative Jam 2008 (UI Design Category)</li>
-            <li>
-              <i class="fa-li fa fa-trophy text-warning"></i>
-              2<sup>nd</sup>
-              Place - University of Colorado Boulder - Emerging Tech Competition 2008</li>
-            <li>
-            <li>
-              <i class="fa-li fa fa-trophy text-warning"></i>
-              1<sup>st</sup>
-              Place - James Buchanan High School - Hackathon 2006</li>
-            <li>
-              <i class="fa-li fa fa-trophy text-warning"></i>
-              3<sup>rd</sup>
-              Place - James Buchanan High School - Hackathon 2005</li>
-          </ul>
+          <h2 class="mb-5">Awards</h2>
+
+          <div class="resume-item d-flex flex-column flex-md-row mb-5">
+            <div class="resume-content mr-auto">
+              <h3 class="mb-0">Ph.D. Research Award</h3>
+              <div class="subheading mb-3">European Physical Society</div>
+              <p>
+                The Award The Plasma Physics Division of the European Physical Society (EPS) shall grant up to four prizes annually to young scientists from the 38 European countries associated with the EPS in recognition of truly outstanding research achievements associated with their PhD study in the broad field of plasma physics.
+              </p>
+            </div>
+            <div class="resume-date text-md-right">
+              <span class="text-primary">2017</span>
+            </div>
+          </div>
+
+        </div>
+      </section>
+
+      <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="references">
+        <div class="my-auto">
+          <h2 class="mb-5">References</h2>
+
+          <div class="resume-item d-flex flex-column flex-md-row mb-5">
+            <div class="resume-content mr-auto">
+              <h3 class="mb-0">Dr. Alberto Loarte</h3>
+              <div class="subheading mb-3">Science Division head at ITER Organization · scientific officer at the European Commission</div>
+              <p>
+                <table>
+                    <tbody>
+                        <tr>
+                            <td style="padding-right: 50px;" align="left">email</td>
+                            <td align="left"><a href="mailto:alberto.loarte@iter.org">alberto.loarte@iter.org</a></td>
+                        </tr>
+                        <tr>
+                            <td style="padding-right: 50px;" align="left">telephone</td>
+                            <td align="left">+33 4 42 176508</td>
+                        </tr>
+                    </tbody>
+                </table>
+              </p>
+            </div>
+          </div>
+
+          <div class="resume-item d-flex flex-column flex-md-row mb-5">
+            <div class="resume-content mr-auto">
+              <h3 class="mb-0">Prof. Dr. Guido Huijsmans</h3>
+              <div class="subheading mb-3">full professor at Eindhoven University of Technology · scientific officer at the European Commission</div>
+              <p>
+                <table>
+                    <tbody>
+                        <tr>
+                            <td style="padding-right: 50px;" align="left">email</td>
+                            <td align="left"><a href="mailto:guido.huijsmans@cea.fr">guido.huijsmans@cea.fr</a></td>
+                        </tr>
+                        <tr>
+                            <td style="padding-right: 50px;" align="left">telephone</td>
+                            <td align="left">+33 4 42 256152</td>
+                        </tr>
+                    </tbody>
+                </table>
+              </p>
+            </div>
+          </div>
+
+          <div class="resume-item d-flex flex-column flex-md-row mb-5">
+            <div class="resume-content mr-auto">
+              <h3 class="mb-0">Prof. Dr. Raul Sánchez</h3>
+              <div class="subheading mb-3">full professor at Universidad Carlos III de Madrid</div>
+              <p>
+                <table>
+                    <tbody>
+                        <tr>
+                            <td style="padding-right: 50px;" align="left">email</td>
+                            <td align="left"><a href="mailto:rsanchez@fis.uc3m.es">rsanchez@fis.uc3m.es</a></td>
+                        </tr>
+                        <tr>
+                            <td style="padding-right: 50px;" align="left">telephone</td>
+                            <td align="left">+34 91 6246001</td>
+                        </tr>
+                    </tbody>
+                </table>
+              </p>
+            </div>
+          </div>
+
         </div>
       </section>
 
@@ -303,7 +464,7 @@
     <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
 
     <!-- Custom scripts for this template -->
-    <script src="js/resume.min.js"></script>
+    <script src="js/resume.js"></script>
 
   </body>
 
